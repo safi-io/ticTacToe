@@ -22,11 +22,7 @@ This is a simple console-based Tic Tac Toe game written in C++. The game allows 
 
   -   Players take turns to choose a number corresponding to the grid position where they want to place their mark (X or O). For example, choosing 1 will place the mark in the top-left corner of the grid.
 
-   -  Game Continuation:
-
-   - The game continues until a player wins or all positions are filled, resulting in a draw.
-
-   - End of Game:
+     - The game continues until a player wins or all positions are filled, resulting in a draw.
 
   -  The game will display the result, indicating which player won or if the game is a draw.
 
@@ -35,4 +31,4 @@ This is a simple console-based Tic Tac Toe game written in C++. The game allows 
    - displayGrid(): Displays the current state of the game board.
    - playerTurn(): Handles the player's turn and updates the game board.
    -  gamedraw(): Checks for a win, draw, or continuation of the game.
-    - verify(): Announces the winner and game developer information.
+   - verify(): Announces the winner and game developer information.
